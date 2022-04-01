@@ -81,7 +81,7 @@ class WordDocumentBuilder implements IWriteDocumentBuider{
 
 class DirectorBuilder {
     buildBasicDocument(builder: IWriteDocumentBuider): IDocument{
-        return builder.setTitle("Word Document")
+        return builder.setTitle("Basic Document")
             .setBody("Builder Design Pattern")
             .getResult();
     }
