@@ -85,8 +85,6 @@ let outputDocOffice: OutputDocument = new OutputDocument(office);
 console.log(outputDocOffice.exportTextDoc());
 console.log(outputDocOffice.exportSheetDoc());
 
-
-
 console.log("Open Office");
 let outputDocOpenOffice: OutputDocument = new OutputDocument(openOffice);
 console.log(outputDocOpenOffice.exportTextDoc());
